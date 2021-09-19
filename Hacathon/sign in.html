@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Sell-Arts and Crafts</title>
+<style> 
+Body {
+  font-family: Calibri, Helvetica, sans-serif;
+  background-color: white;
+}
+button { 
+       background-color: #34495E; 
+       width: 100%;
+        color: black; 
+        padding: 15px; 
+        margin: 10px 0px; 
+        border: none; 
+        cursor: pointer; 
+         } 
+ form { 
+        border: 3px solid #F7DC6F; 
+        width: 560px;
+    } 
+ input[type=text], input[type=password] { 
+        width: 100%; 
+        margin: 8px 0;
+        padding: 12px 20px; 
+        display: inline-block; 
+        border: 2px solid green; 
+        box-sizing: border-box; 
+    }
+ button:hover { 
+        opacity: 0.7; 
+    } 
+  .cancelbtn { 
+        width: auto; 
+        padding: 10px 18px;
+        margin: 10px 5px;
+    } 
+      
+   
+ .container { 
+        padding: 25px; 
+        background-color: lightblue;
+        margin-right:auto;
+        margin-bottom: 0;
+        margin-top: 0;
+        margin-left: auto;
+    } 
+</style> 
+</head>  
+<body>  
+    <center> 
+        <a href="Sell.html" style="color:black;font-size:40px;text-decoration: none;"> Login / </a>
+        <h1 style="color:darkblue;font-size:40px;display:inline-block;"><u> Sign-in </u></h1>
+        <div style = "position:relative;bottom: 40px"><h2> Sign-in Form </h2></div>
+    </center>
+    <div style = "position:relative;bottom: 40px">
+        <form class="container">
+            <div class="container"> 
+                <label>Full Name : </label> 
+                <input type="text" placeholder="Full Name" name="Name" required>
+                <label>Mobile No. : </label>
+                <input type="text" placeholder="Mobile No." name="Number" required>
+                <label>E-mail : </label> 
+                <input type="text" placeholder="Enter your E-mail" name="username" not-required>
+                <label>Create Password : </label> 
+                <input type="password" placeholder="Create Password" name="password" required>
+                <label>Re-Enter Password : </label> 
+                <input type="password" placeholder="Re-Enter Password" name="password" required>
+                <a href = "Sell.html"><button type="submit">Sign-in</button></a>
+                <input type="checkbox" checked="checked"> Remember me 
+                <div style = "position:relative;left: 450px"><a href = "ArtsAndCrafts.html"><button type="button" class="cancelbtn"> Back</button></a> </div>
+            </div> 
+        </form> 
+    </div>   
+</body>   
+</html>
